@@ -1,8 +1,7 @@
-<html>
-
+<!DOCTYPE html>
+<html lang = "en">
 <body>
-<center>
-  <form action="#" name="pokemon" method="post" align="center">
+	<form action="#" name="pokemon" method="post" align="center">
 	
 	<label for="dex">National Dex:</label>
 		<input type="number" name="dex" id="dex" min="1"> <br> <br>
@@ -17,29 +16,58 @@
 		<label for="gen3">Generation 3</label>
 		
 	<input type="radio" name="gen" id="gen4" value="gen4">
-		<label for="gen4">Generation 4</label> 
-	
-	<input type="radio" name="gen" id="gen4" value="gen5">
-		<label for="gen5">Generation 5</label> 
+		<label for="gen4">Generation 4</label>
+		
+	<input type="radio" name="gen" id="gen5" value="gen4">
+		<label for="gen5">Generation 5</label>
+		
+	<input type="radio" name="gen" id="gen6" value="gen4">
+		<label for="gen6">Generation 6</label>
+		
+    <input type="radio" name="gen" id="gen7" value="gen4">
+		<label for="gen7">Generation 7</label>
+		
+	<input type="radio" name="gen" id="gen8" value="gen4">
+		<label for="gen8">Generation 8</label>
+		
+	<input type="radio" name="gen" id="gen8" value="gen4">
+		<label for="gen8">Generation 9</label> <br> <br>
 
-	<input type="radio" name="gen" id="gen6" value="gen6">
-		<label for="gen6">Generation 6</label> 
-		
-	<input type="radio" name="gen" id="gen7" value="gen7">
-		<label for="gen7">Generation 7</label> 
-		
-	<input type="radio" name="gen" id="gen8" value="gen8">
-		<label for="gen8">Generation 8</label> 
-		
-	<input type="radio" name="gen" id="gen9" value="gen9">
-		<label for="gen9">Generation 9</label> <br>
-
-		
-	<label for="">National Dex:</label>
-	<input type="text" name="dex" id="dex"> <br> <br>
+        <tr> 
+            <td>Pokémon Name:</td>
+            <td><input type="text" name="pokemonName"></td>
+        </tr> <br> <br>
+      
+            <td>Image:</td>
+            <td><input type="file" name="pokemonImage"></td>
+        </tr> <br> <br>
+        <tr>
+            <td>Type 1:</td>
+            <td><input type="text" name="type1"></td>
+        </tr>
+        <tr>
+            <td>Type 2:</td>
+            <td><input type="text" name="type2"></td>
+        </tr> <br> <br>
+        <tr>
+            <td>Evolves From:</td>
+            <td><input type="text" name="evolvesFrom"></td>
+        </tr>
+        <tr>
+            <td>Evolves To:</td>
+            <td><input type="text" name="evolvesTo"></td>
+        </tr> <br> <br>
+        <tr>
+            <td>Nickname:</td>
+            <td><input type="text" name="nickname"></td>
+        </tr> <br> <br>
+        <tr>
+            <td>Birthday:</td>
+            <td><input type="date" name="birthday"></td>  
+        </tr> <br> <br>
 	
     <!-- Submit button -->
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit"> <br> <br>
 </form>
 </center>
 
