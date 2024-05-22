@@ -28,7 +28,6 @@ body{
     border-width: 10px;
     height: auto;
     box-shadow: 10px 10px 10px black;
-    background-color: white;
 }
 
 .image{
@@ -93,7 +92,7 @@ h1{
 }
 
 .info{
-    color: black;
+    color: white;
     text-align: justify;
     margin: 0.5rem 0.2rem;
     line-height: 1.3;
@@ -156,6 +155,26 @@ button:hover{
 
 .psychic {
     background-color: #EF4179;
+}
+
+.normal {
+    background-color: #A8A878;
+}
+
+.brown{
+    background-color: #964B00;
+}
+
+.darkblue{
+    background-color: darkblue;
+}
+
+.pink{
+    background-color: #b8335d;
+}
+
+.violet{
+    background-color: #4914c3;
 }
 
 .normal {
