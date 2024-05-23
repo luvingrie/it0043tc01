@@ -29,6 +29,10 @@ body{
     justify-content: space-between;
     flex: 1 1 calc(33.333% - 1rem); /* Flex-grow, flex-shrink, and flex-basis */
     max-width: calc(33.333% - 1rem);
+    
+    
+    width: 30%;
+    
 }
 
 .image{
