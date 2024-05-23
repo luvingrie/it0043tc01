@@ -27,9 +27,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1 1 calc(33.333% - 1rem); /* Flex-grow, flex-shrink, and flex-basis */
     
-    display: inline-block;
+
     margin: 1rem 1rem;
     vertical-align: top;
     border-width: 10px;
