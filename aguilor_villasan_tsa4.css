@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("bg.JPG");
+    background-image: url("tsa4bg.JPG");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -19,22 +19,15 @@ body{
 }
 
 .card{
+    display: inline-block;
+    width: 30%;
     border-radius: 1rem;
     text-align: center;
-    box-shadow: 10px 10px 10px black;
-    background-color: white;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-
     margin: 1rem 1rem;
     vertical-align: top;
     border-width: 10px;
-    height: 90vw;
-    width: 30%;
-    
+    height: 1%;
+    box-shadow: 10px 10px 10px black;
 }
 
 .image{
@@ -66,6 +59,7 @@ img{
     filter: drop-shadow(10px 10px 5px #222);
     object-fit: cover;
     object-position: bottom;
+    height: 70%;
     width: 70%;
     margin: 1rem 0;
 }
@@ -152,10 +146,6 @@ button:hover{
     background-color: #00f;
 }
 
-.dragon {
-    background-color: #7038F8;
-}
-
 .ground {
     background-color: #E0C068;
 }
@@ -168,6 +158,22 @@ button:hover{
     background-color: #A8A878;
 }
 
+.flying{
+    background-color: #81B9EF;
+}
+
+.grass{
+    background-color: green;
+}
+
+.electric{
+    background-color: #ffd322;
+}
+
+.fire{
+    background-color: red;
+}
+
 .brown{
     background-color: #964B00;
 }
@@ -176,14 +182,18 @@ button:hover{
     background-color: darkblue;
 }
 
-.pink{
-    background-color: #b8335d;
+.darkgreen{
+    background-color: darkgreen;
 }
 
-.violet{
-    background-color: #4914c3;
+.lightblue{
+    background-color: #6191bd;
 }
 
-.normal {
-    background-color: #A8A878;
+.yellow{
+    background-color: #E68000;
+}
+
+.darkred{
+    background-color: darkred;
 }
