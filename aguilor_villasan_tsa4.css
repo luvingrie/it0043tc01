@@ -19,15 +19,16 @@ body{
 }
 
 .card{
-    display: inline-block;
-    width: 30%;
     border-radius: 1rem;
     text-align: center;
-    margin: 1rem 1rem;
-    vertical-align: top;
-    border-width: 10px;
-    height: 90vw;
     box-shadow: 10px 10px 10px black;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 calc(33.333% - 1rem); /* Flex-grow, flex-shrink, and flex-basis */
+    max-width: calc(33.333% - 1rem);
 }
 
 .image{
