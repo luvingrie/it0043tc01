@@ -30,7 +30,11 @@ body{
     flex: 1 1 calc(33.333% - 1rem); /* Flex-grow, flex-shrink, and flex-basis */
     max-width: calc(33.333% - 1rem);
     
-    
+    display: inline-block;
+    margin: 1rem 1rem;
+    vertical-align: top;
+    border-width: 10px;
+    height: 90vw;
     width: 30%;
     
 }
