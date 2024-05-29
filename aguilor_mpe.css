@@ -106,7 +106,7 @@ p{
     height: 80px;
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1000px){
     .icon{
 		display: flex;
         padding: 20px;
