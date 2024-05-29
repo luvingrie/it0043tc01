@@ -1,1 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
 
+body{
+    background-color: black;
+}
+
+.container{
+    background-image: url(mpe_bg.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icon{
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    display: none;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#pokeball{
+    display: none;
+    width: 80px;
+    height: 80px;
+}
+
+@media(max-width: 1090px){
+    .card{
+        display: flex;
+        padding: 20px;
+        width: 500px;
+        vertical-align: center;
+        flex-grow: 1;
+    }
+
+    .icon:hover{
+        background-image: url(hover.JPG);
+    }
+
+    p, #pokeball{
+        display: inline-block;
+    }
+
+    img{
+        width: 100px;
+    }
+}
+
+@media(max-width: 500px){
+    .card{
+        display: flex;
+        padding: 20px;
+        width: 500px;
+        vertical-align: center;
+        flex-grow: 1;
+    }
+
+    .icon:hover{
+        background-image: url(hover.JPG);
+    }
+
+    p{
+        display: inline-block;
+    }
+
+    #pokeball{
+        display: none;
+    }
+
+    img{
+        width: 100px;
+    }
+}
+
+.cat{
+    background-color: #cc549e;
+}
+
+.char{
+    background-color: #e86207;
+}
+
+.dra{
+    background-color: #1a93d6;
+}
+
+.eevee{
+    background-color: #c4833d;
+}
+
+.jig{
+    background-color: #ea81bd;
+}
+
+.man{
+    background-color: #e2bf91;
+}
+
+.meow{
+    background-color: #ddd2b1;
+}
+
+.mew{
+    background-color: #e8b5a6;
+}
+
+.pid{
+    background-color: #e29c37;
+}
+
+.psy{
+    background-color: #ffd400;
+}
+
+.snor{
+    background-color: #0d5c9e;
+}
+
+.squi{
+    background-color: #70d3e0;
+}
