@@ -6,6 +6,13 @@
     --home-bg: #F3A8BB;
     --about-bg: #BAE2F0;
     --work-bg: #f5f5f5;
+    --feedback-bg: #cbc4fb;
+    --proj1-bg: #fad869;
+    --proj2-bg: #63a9d9;
+    --proj3-bg: #e96fa6;
+    --proj4-bg: #a47cc6;
+    --text-white: #ffffff;
+    --text-black: #000000;
 }
 
 * {
@@ -22,7 +29,7 @@
 
 /* NAVIGATION BAR */
 .navbar {
-    background-color: var(--main-color);
+    background-color: #1b0c0c;
 }
 
 .navbar .container {
@@ -52,13 +59,13 @@ li {
     margin-left: 30px;
 }
 
-li > a {
+li>a {
     font-size: 1.2rem;
     color: var(--secondary-color);
     transition: 0.4s all ease;
 }
 
-li > a:hover {
+li>a:hover {
     color: var(--hover-color);
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -166,27 +173,19 @@ li > a:hover {
 }
 
 .proj-1-img {
-    background: url("proj1.png");
+    background-image: url("proj1.png");
 }
 
 .proj-2-img {
-    background: url("proj2.png");
+    background-image: url("proj2.png");
 }
 
 .proj-3-img {
-    background: url("proj3.png");
+    background-image: url("proj3.png");
 }
 
 .proj-4-img {
-    background: url("proj4.png");
-}
-
-.proj img {
-    object-fit: cover;
-    object-position: bottom;
-    width: 100%;
-    height: 200px;
-    margin: 1rem 0;
+    background-image: url("proj4.png");
 }
 
 .title {
@@ -229,23 +228,23 @@ li > a:hover {
 }
 
 .card1 {
-    background-color: #fad869;
+    background-color: var(--proj1-bg);
 }
 
 .card2 {
-    background-color: #63a9d9;
+    background-color: var(--proj2-bg);
 }
 
 .card3 {
-    background-color: #e96fa6;
+    background-color: var(--proj3-bg);
 }
 
 .card4 {
-    background-color: #a47cc6;
+    background-color: var(--proj4-bg);
 }
 
 .t1 {
-    color: #ffffff;
+    color: var(--text-white);
 }
 
 .t2 {
@@ -281,19 +280,23 @@ li > a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #cbc4fb;
+
+    padding: 100px;
+    text-align: center;
+    background-image: url("contact_bg.jpg");
+    background-size: cover;
+    background-position: center;
+
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
 .feedback {
     width: 95vw;
-    margin: 0 auto;
 }
 
 .feedback-person {
     width: 50vw;
-    margin: 0 auto;
 }
 
 .feedback {
@@ -307,19 +310,23 @@ li > a:hover {
     margin-top: 30px;
 }
 
-.last-text {
-    color: black;
-    text-align: center;
+.form-box {
+    border-radius: 0.5rem;
 }
 
-input[type=text] {
-    width: 75%;
+.last-text {
+    color: black;
+}
+
+input[type=email] {
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 0.5rem;
 }
 
-input[type=text]:focus {
+input[type=email]:focus {
     background-color: pink;
 }
 
@@ -328,6 +335,8 @@ input[type=submit] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 input[type=submit]:hover {
@@ -338,12 +347,30 @@ input[type=submit]:hover {
 .footer {
     padding: 30px 0;
     text-align: center;
-    background-color: var(--about-bg);
-    color: black;
+    background-color: black;
 }
 
 .social {
-    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social a {
+    width: 50px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.social a:hover {
+    background-color: var(--hover-color);
 }
 
 /* ANIMATIONS */
@@ -351,9 +378,11 @@ input[type=submit]:hover {
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-20px);
     }
+
     100% {
         transform: translateY(0);
     }
