@@ -6,11 +6,3 @@ document.addEventListener('DOMContentLoaded', () => {
         menu.classList.toggle('menu-visible');
     });
 });
-
-const typed = new Typed('.multiple-text', {
-    strings: ['Phone Number', 'Email', 'Facebook', 'Instagram', 'Twitter'],
-    typeSpeed: 80,
-    backSpeed: 80,
-    backDelay: 1200,
-    loop: true,
-});
